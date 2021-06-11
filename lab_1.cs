@@ -18,17 +18,7 @@ namespace test
             bool IsMoreThan(int number)
             {
                 return number > limit;
-            }
-
-
-            int result = 0;
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                if (IsMoreThan(numbers[i]));
-                {
-                    result += numbers[i];
-                }
-            }
+  
             return result;
         }
     }
