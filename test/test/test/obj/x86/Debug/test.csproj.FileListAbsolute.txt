@@ -1,0 +1,6 @@
+/home/ilya/pgit/CSharp/test/test/test/bin/Debug/test.exe
+/home/ilya/pgit/CSharp/test/test/test/bin/Debug/test.pdb
+/home/ilya/pgit/CSharp/test/test/test/obj/x86/Debug/test.csprojAssemblyReference.cache
+/home/ilya/pgit/CSharp/test/test/test/obj/x86/Debug/test.csproj.CoreCompileInputs.cache
+/home/ilya/pgit/CSharp/test/test/test/obj/x86/Debug/test.exe
+/home/ilya/pgit/CSharp/test/test/test/obj/x86/Debug/test.pdb
