@@ -1,0 +1,10 @@
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\bin\Debug\Lab1_Is_work.exe.config
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\bin\Debug\Lab1_Is_work.exe
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\bin\Debug\Lab1_Is_work.pdb
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.csprojAssemblyReference.cache
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.Properties.Resources.resources
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.csproj.GenerateResource.cache
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.exe
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.pdb
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.Lab1.resources
+G:\Project\C#\Lab_1IsWork\Lab1_Is_work\Lab1_Is_work\obj\Debug\Lab1_Is_work.csproj.CoreCompileInputs.cache

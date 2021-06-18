@@ -1,0 +1,9 @@
+G:\Project\C#\Lab3_excel\tets2\tets2\bin\Debug\tets2.exe.config
+G:\Project\C#\Lab3_excel\tets2\tets2\bin\Debug\tets2.exe
+G:\Project\C#\Lab3_excel\tets2\tets2\bin\Debug\tets2.pdb
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.csprojAssemblyReference.cache
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.Properties.Resources.resources
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.csproj.GenerateResource.cache
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.exe
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.pdb
+G:\Project\C#\Lab3_excel\tets2\tets2\obj\Debug\tets2.Lab3.resources
