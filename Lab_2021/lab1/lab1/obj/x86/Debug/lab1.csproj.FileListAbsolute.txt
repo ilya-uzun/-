@@ -1,0 +1,6 @@
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/bin/Debug/lab1.exe
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/bin/Debug/lab1.pdb
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/obj/x86/Debug/lab1.csprojAssemblyReference.cache
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/obj/x86/Debug/lab1.csproj.CoreCompileInputs.cache
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/obj/x86/Debug/lab1.exe
+/home/ilya/pgit/CSharp/Lab_2021/lab1/lab1/obj/x86/Debug/lab1.pdb
