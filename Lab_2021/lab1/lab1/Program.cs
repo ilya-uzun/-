@@ -4,15 +4,14 @@ namespace lab1
 {
     class Tacs
     {
-        private int m = 0;
-        private int n = 0;
+        private int m = 1;
+        private int n = 1;
 
-        public void print()
+        public void print1()
         {
-            n++;
-            int sima = n + m;
-            Console.WriteLine("n+++m  =  " + sima);
+            Console.WriteLine("--m-n++  =  " + (--m - n++));
         }
+
     }
 
     class MainClass
@@ -20,7 +19,7 @@ namespace lab1
         public static void Main(string[] args)
         {
             Tacs tacs = new Tacs();
-            tacs.print();
+            tacs.print1();
             Console.WriteLine("Hello World!");
         }
     }
