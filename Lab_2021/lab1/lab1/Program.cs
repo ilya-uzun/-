@@ -4,12 +4,43 @@ namespace lab1
 {
     class Tacs
     {
-        private int m = 1;
-        private int n = 1;
+        private int m = 0;
+        private int n = 0;
+        private int amount = 0;
 
-        public void print1()
+
+        public void Read()
         {
-            Console.WriteLine("--m-n++  =  " + (--m - n++));
+            try{
+                //чтение m
+                string mString = Console.ReadLine();
+                m = Convert.ToInt32(mString);
+                //чтение n
+                string nString = Console.ReadLine();
+                n = Convert.ToInt32(nString);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("ошибка ввода ");
+            }
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("--m-n++  =  " + amount);
+        }
+
+        public bool Comparison()
+        {
+            if (m > n) 
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
         }
 
     }
@@ -19,7 +50,8 @@ namespace lab1
         public static void Main(string[] args)
         {
             Tacs tacs = new Tacs();
-            tacs.print1();
+            tacs.Read();
+            tacs.Print();
             Console.WriteLine("Hello World!");
         }
     }
