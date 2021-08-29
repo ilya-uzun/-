@@ -2,7 +2,7 @@
 
 namespace lab1
 {
-    class Tacs
+    class Tacs1
     {
         private int m = 0;
         private int n = 0;
@@ -12,10 +12,12 @@ namespace lab1
         public void Read()
         {
             try{
-                //чтение m
+                //запись m
+                Console.WriteLine("Введите m : ");
                 string mString = Console.ReadLine();
                 m = Convert.ToInt32(mString);
-                //чтение n
+                //запись n
+                Console.WriteLine("Введите n : ");
                 string nString = Console.ReadLine();
                 n = Convert.ToInt32(nString);
             }
@@ -27,11 +29,14 @@ namespace lab1
 
         public void Print()
         {
-            Console.WriteLine("--m-n++  =  " + amount);
+            amount = m - (++n);
+            Console.WriteLine("Вырожение m-++n  =  " + amount);
         }
 
-        public bool Comparison()
+        public Comparison()
         {
+            m++;
+            n--;
             if (m > n) 
             {
                 return true;
@@ -40,7 +45,6 @@ namespace lab1
             {
                 return false;
             }
-
         }
 
     }
@@ -49,10 +53,11 @@ namespace lab1
     {
         public static void Main(string[] args)
         {
-            Tacs tacs = new Tacs();
+            Tacs1 tacs = new Tacs1();
+            Console.WriteLine("Введите m и n");
             tacs.Read();
             tacs.Print();
-            Console.WriteLine("Hello World!");
+            tacs.Comparison();
         }
     }
 }
