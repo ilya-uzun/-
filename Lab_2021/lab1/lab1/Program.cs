@@ -33,18 +33,12 @@ namespace lab1
             Console.WriteLine("Вырожение m-++n  =  " + amount);
         }
 
-        public Comparison()
+        public void Comparison()
         {
             m++;
             n--;
-            if (m > n) 
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            if (m > n)  Console.WriteLine("m++>--n");
+  
         }
 
     }
@@ -56,8 +50,9 @@ namespace lab1
             Tacs1 tacs = new Tacs1();
             Console.WriteLine("Введите m и n");
             tacs.Read();
-            tacs.Print();
             tacs.Comparison();
+            tacs.Print();
+
         }
     }
 }
