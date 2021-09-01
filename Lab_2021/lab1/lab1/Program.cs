@@ -7,7 +7,7 @@ namespace lab1
         private int m = 0;
         private int n = 0;
         private int amount = 0;
-
+        private double x = 0;
 
         public void Read()
         {
@@ -20,6 +20,21 @@ namespace lab1
                 Console.WriteLine("Введите n : ");
                 string nString = Console.ReadLine();
                 n = Convert.ToInt32(nString);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("ошибка ввода ");
+            }
+        }
+
+        public void ReadX()
+        {
+            try
+            {
+                //запись x
+                Console.WriteLine("Введите x : ");
+                string xString = Console.ReadLine();
+                x = Convert.ToDouble(xString);
             }
             catch (FormatException)
             {
