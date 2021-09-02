@@ -7,7 +7,7 @@ namespace lab1
         private int m = 0;
         private int n = 0;
         private int amount = 0;
-        private double x = 0;
+        private double x = 0.0;
 
         public void Read()
         {
@@ -81,7 +81,13 @@ namespace lab1
                 Console.WriteLine("Условие не выполненно m--<++n");
             }
         }//Comparison2()
-    }
+
+        public double Formula() 
+            {
+            return 25 * Math.Pow(x, 5) - Math.Sqrt(x * x + x);
+            }
+
+    }//Tacs1
 
     class MainClass
     {
