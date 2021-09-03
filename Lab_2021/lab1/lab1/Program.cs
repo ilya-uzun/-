@@ -101,6 +101,12 @@ namespace lab1
             tacs.Print();
             tacs.Comparison2();
             tacs.Print();
+            Console.WriteLine("Введите x ");
+            tacs.ReadX();
+            //tacs.Formula()
+            //double value = 1234.567890;
+            Console.Write("Вывод формулы x ");
+            Console.WriteLine("{0:N}", tacs.Formula());
 
         }
     }
