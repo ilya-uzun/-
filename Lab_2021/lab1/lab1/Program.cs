@@ -11,7 +11,7 @@ namespace lab1
 
         public void Read()
         {
-            try{
+            try {
                 //запись m
                 Console.WriteLine("Введите m : ");
                 string mString = Console.ReadLine();
@@ -82,13 +82,27 @@ namespace lab1
             }
         }//Comparison2()
 
-        public double Formula() 
-            {
+        public double Formula()
+        {
             return 25 * Math.Pow(x, 5) - Math.Sqrt(x * x + x);
-            }
+        }
 
     }//Tacs1
 
+
+    class Test
+    {
+        private int size = 5;
+    
+        private int[] myArrInt = new int[5] ;
+        private double[] myArrDouble = new double[5];
+
+        public double RandomDouble() 
+        { 
+            return
+        }
+
+    }
     class MainClass
     {
         public static void Main(string[] args)
@@ -103,8 +117,6 @@ namespace lab1
             tacs.Print();
             Console.WriteLine("Введите x ");
             tacs.ReadX();
-            //tacs.Formula()
-            //double value = 1234.567890;
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
 
