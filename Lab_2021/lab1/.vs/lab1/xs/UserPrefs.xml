@@ -3,20 +3,8 @@
     <Files>
       <File FileName="lab1/Program.cs" Line="10" Column="36" />
       <File FileName="lab1/Test.cs" Line="6" Column="2" />
-      <File FileName="lab1/Tacs1.cs" Line="12" Column="32" />
+      <File FileName="lab1/Tacs1.cs" Line="12" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="lab1" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="lab1" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

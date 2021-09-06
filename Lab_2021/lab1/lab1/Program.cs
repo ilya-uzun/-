@@ -8,8 +8,9 @@ namespace lab1
         public static void Main(string[] args)
         {
             Tacs1 tacs = new Tacs1();
-            Test sa = new Test();
+            Test test = new Test();
             Console.WriteLine("Введите m и n");
+            /*
             tacs.Read();
             tacs.PrintAmount();
             tacs.Comparison();
@@ -20,7 +21,8 @@ namespace lab1
             tacs.ReadX();
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
-
+            */
+            test.GetRandom();
         }
     }
 }

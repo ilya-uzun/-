@@ -5,10 +5,17 @@ namespace lab1
      public class Tacs1
     {
 
-        private int m = 0;
-        private int n = 0;
-        private int amount = 0;
-        private double x = 0.0;
+        public Tacs1()
+        {
+         m = 0;
+         n = 0;
+         amount = 0;
+         x = 0.0;
+         }
+
+        private int m, n, amount;
+        private double x;
+    
 
         public void Read()
         {
