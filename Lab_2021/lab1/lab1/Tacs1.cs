@@ -13,10 +13,12 @@ namespace lab1
          x = 0.0;
          }
 
+        /* --- ----- Поля ----- ----- */
+
         private int m, n, amount;
         private double x;
-    
 
+        /* --- ----- Методы ----- ----- */
         public void Read()
         {
             try

@@ -22,7 +22,10 @@ namespace lab1
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
             */
-            test.GetRandom();
+            test.ReadSizeRandom();
+            //test.ReadSizeArrey();
+            //test.GetRandom();
+            test.GetRandomArrey();
         }
     }
 }
