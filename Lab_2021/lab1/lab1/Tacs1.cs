@@ -24,13 +24,11 @@ namespace lab1
             try
             {
                 //запись m
-                Console.WriteLine("Введите m : ");
-                string mString = Console.ReadLine();
-                m = Convert.ToInt32(mString);
+                Console.Write("Введите m : ");
+                m = Convert.ToInt32(Console.ReadLine());
                 //запись n
-                Console.WriteLine("Введите n : ");
-                string nString = Console.ReadLine();
-                n = Convert.ToInt32(nString);
+                Console.Write("Введите n : ");
+                n = Convert.ToInt32(Console.ReadLine());
             }
             catch (FormatException)
             {
@@ -43,9 +41,8 @@ namespace lab1
             try
             {
                 //запись x
-                Console.WriteLine("Введите x : ");
-                string xString = Console.ReadLine();
-                x = Convert.ToDouble(xString);
+                Console.Write("Введите x : ");      
+                x = Convert.ToDouble(Console.ReadLine());
             }
             catch (FormatException)
             {

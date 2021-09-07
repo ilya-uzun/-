@@ -5,7 +5,6 @@ namespace lab1
     {
         public Test()
         {
-            ReadSizeArrey();
             sizeRandom = 0;
             size = 2;
             //myArrDouble = new double[size];
@@ -30,8 +29,7 @@ namespace lab1
             {
                 //запись 
                 Console.Write("Верхнею границу случайного чисела: ");
-                string sizeRandomString = Console.ReadLine();
-                sizeRandom = Convert.ToInt32(sizeRandomString);
+                sizeRandom = Convert.ToInt32(Console.ReadLine());
             }
             catch (FormatException)
             {
@@ -45,8 +43,7 @@ namespace lab1
             {
                 //запись 
                 Console.Write("Ведите размер массива ");
-                string sizeString = Console.ReadLine();
-                size = Convert.ToInt32(sizeString);
+                size = Convert.ToInt32(Console.ReadLine()); 
             }
             catch (FormatException)
             {
