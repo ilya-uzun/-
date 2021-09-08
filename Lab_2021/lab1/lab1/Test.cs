@@ -15,6 +15,11 @@ namespace lab1
         private int size;
 
         /* --- ----- Методы ----- ----- */
+        public void GetArrey(ref arrey[])
+        {
+            double[] arrey = new double[size];
+
+        }
 
         public void GetRandom()
         {
