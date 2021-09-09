@@ -3,6 +3,11 @@ namespace lab1
 {
     public class Test
     {
+        class arrey
+        {
+            public int value; // целочисленное значение
+        }
+
         public Test()
         {
             sizeRandom = 0;
@@ -15,10 +20,9 @@ namespace lab1
         private int size;
 
         /* --- ----- Методы ----- ----- */
-        public void GetArrey(ref arrey[])
+        static void GetArrey(ref arrey[] A, int size)
         {
             double[] arrey = new double[size];
-
         }
 
         public void GetRandom()
@@ -68,3 +72,5 @@ namespace lab1
         }//GetRandomArrey()
     }//Test
 }
+
+//https://www.bestprog.net/ru/2020/01/18/c-passing-in-the-function-one-dimensional-and-multidimensional-arrays-of-class-instances-as-ref-and-out-parameters-ru/
