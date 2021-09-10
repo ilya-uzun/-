@@ -12,7 +12,7 @@ namespace lab1
         {
             sizeRandom = 0;
             size = 2;
-            //myArrDouble = new double[size];
+            //double[] myArrDouble = new double[size];
         }
         /* --- ----- Поля ----- ----- */
 
@@ -22,7 +22,7 @@ namespace lab1
         /* --- ----- Методы ----- ----- */
         static void GetArrey(ref arrey[] A, int size)
         {
-            double[] arrey = new double[size];
+            A = new arrey[size];
         }
 
         public void GetRandom()
@@ -37,12 +37,12 @@ namespace lab1
             try
             {
                 //запись 
-                Console.Write("Верхнею границу случайного чисела: ");
+                Console.Write("Введите верхнею границу случайного чисела: ");
                 sizeRandom = Convert.ToInt32(Console.ReadLine());
             }
             catch (FormatException)
             {
-                Console.WriteLine("ошибка ввода ");
+                Console.WriteLine("Ошибка ввода ");
             }
         }//ReadSizeRandom()
 
@@ -51,19 +51,21 @@ namespace lab1
             try
             {
                 //запись 
-                Console.Write("Ведите размер массива ");
+                Console.Write("Введите размер массива ");
                 size = Convert.ToInt32(Console.ReadLine()); 
             }
             catch (FormatException)
             {
-                Console.WriteLine("ошибка ввода");
+                Console.WriteLine("Ошибка ввода");
             }
         }//ReadSizeRandom()
 
         public void GetRandomArrey()
         {
             Random rnd = new Random();
-            double[] myArrDouble = new double[size];
+            //double[] myArrDouble = new double[size];
+            GetArrey(myArrDouble, size);
+            //double[] myArrDouble = new double[size];
             foreach (int i in myArrDouble)
             {
                 myArrDouble[i] = rnd.NextDouble() * sizeRandom;
