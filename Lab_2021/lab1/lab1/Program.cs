@@ -21,10 +21,9 @@ namespace lab1
             tacs.ReadX();
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
-
-            Console.Write("Введите верхнею границу случайного чисела: ");
+             
             test.ReadSizeRandom();
-            Console.Write("Введите размер массива ");
+           
             //test.ReadSizeArrey();
             //test.GetRandom();
             test.GetRandomArrey();

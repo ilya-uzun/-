@@ -10,13 +10,13 @@ namespace lab1
          m = 0;
          n = 0;
          amount = 0;
-         x = 0.0;
+         x = 0.0f;
          }
 
         /* --- ----- Поля ----- ----- */
-
+       
         private int m, n, amount;
-        private double x;
+        private float x;
 
         /* --- ----- Методы ----- ----- */
         public void Read()
@@ -41,8 +41,9 @@ namespace lab1
             try
             {
                 //запись x
-                Console.Write("Введите x : ");      
-                x = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Введите x : "); 
+                //Convert.    
+                x = (float)Convert.ToDouble(Console.ReadLine());
             }
             catch (FormatException)
             {
@@ -53,7 +54,7 @@ namespace lab1
         public void PrintAmount()
         {
             amount = m - (++n);
-            Console.WriteLine("Вырожение m-++n  =  " + amount);
+            Console.WriteLine("Вырожение m- ++n  =  " + amount);
         }
 
         public void Print()
@@ -90,9 +91,12 @@ namespace lab1
             }
         }//Comparison2()
 
-        public double Formula()
+        public float Formula()
         {
-            return 25 * Math.Pow(x, 5) - Math.Sqrt(x * x + x);
+            return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
+            /*Преобразование в float выполнено, 
+              поскольку функции класса Math возвращают тип double.
+              Тап float использован т.к нет необходимости в большой точности */
         }
     }//Tacs1
 }

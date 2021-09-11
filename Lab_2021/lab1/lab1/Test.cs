@@ -63,8 +63,8 @@ namespace lab1
         public void GetRandomArrey()
         {
             Random rnd = new Random();
-            //double[] myArrDouble = new double[size];
-            GetArrey(myArrDouble, size);
+            double[] myArrDouble = new double[size];
+            //GetArrey(ref myArrDouble, size);
             //double[] myArrDouble = new double[size];
             foreach (int i in myArrDouble)
             {
