@@ -11,13 +11,13 @@ namespace lab1
         public Test()
         {
             sizeRandom = 0;
-            size = 2;
+            //size = 2;
             //double[] myArrDouble = new double[size];
         }
         /* --- ----- Поля ----- ----- */
 
         private int sizeRandom;  // максимальное значение случайного числа
-        private int size;
+       // private int size; // зармер массива
 
         /* --- ----- Методы ----- ----- */
         static void GetArrey(ref arrey[] A, int size)
@@ -46,24 +46,27 @@ namespace lab1
             }
         }//ReadSizeRandom()
 
-        public void ReadSizeArrey()
+        public int ReadSizeArrey()
         {
-            try
+            int s = 0;
+          try
             {
                 //запись 
                 Console.Write("Введите размер массива ");
-                size = Convert.ToInt32(Console.ReadLine()); 
+                s = Convert.ToInt32(Console.ReadLine()); 
             }
             catch (FormatException)
             {
                 Console.WriteLine("Ошибка ввода");
             }
-        }//ReadSizeRandom()
 
+            return s;
+        }//ReadSizeRandom()
+        /*
         public void GetRandomArrey()
         {
             Random rnd = new Random();
-            double[] myArrDouble = new double[size];
+            //double[] myArrDouble = new double[size];
             //GetArrey(ref myArrDouble, size);
             //double[] myArrDouble = new double[size];
             foreach (int i in myArrDouble)
@@ -71,8 +74,27 @@ namespace lab1
                 myArrDouble[i] = rnd.NextDouble() * sizeRandom;
                 Console.WriteLine("{0:N}", myArrDouble[i]);
             }
-        }//GetRandomArrey()
+        }//GetRandomArrey()  */
+
+        public float[] GetArray()
+        {
+            int size = ReadSizeArrey();
+            Random rnd = new Random();
+            float[] temp = new float[size]; // выделить память для массива
+
+            // заполнить массив значениями
+            foreach (int i in temp)
+            {
+                temp[i] = (float)rnd.NextDouble() * sizeRandom;
+                Console.WriteLine("{0:N}", temp[i]);
+            }
+
+
+            return temp;
+        }
+
     }//Test
 }
 
-//https://www.bestprog.net/ru/2020/01/18/c-passing-in-the-function-one-dimensional-and-multidimensional-arrays-of-class-instances-as-ref-and-out-parameters-ru/
+
+

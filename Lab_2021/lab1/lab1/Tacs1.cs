@@ -91,12 +91,31 @@ namespace lab1
             }
         }//Comparison2()
 
-        public float Formula()
+        public void Formula()
         {
-            return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
+            int zero = 0;
+            zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
+            if (zero == 0)
+            {
+                Console.WriteLine("Х является корне уровнения ");
+            }
+            //return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
             /*Преобразование в float выполнено, 
               поскольку функции класса Math возвращают тип double.
               Тап float использован т.к нет необходимости в большой точности */
+        }
+        public void Formula(Test t)
+        {
+       
+
+            Test s;
+            int zero = 0;
+            zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
+            if (zero == 0)
+            {
+               Console.WriteLine("Х является корне уровнения ");
+            }
+
         }
     }//Tacs1
 }
