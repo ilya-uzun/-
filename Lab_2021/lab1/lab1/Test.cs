@@ -86,10 +86,8 @@ namespace lab1
             foreach (int i in temp)
             {
                 temp[i] = (float)rnd.NextDouble() * sizeRandom;
-                Console.WriteLine("{0:N}", temp[i]);
+                //Console.WriteLine("{0:N}", temp[i]); // проверка вывода
             }
-
-
             return temp;
         }
 

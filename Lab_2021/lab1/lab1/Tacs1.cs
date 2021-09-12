@@ -97,7 +97,8 @@ namespace lab1
             zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
             if (zero == 0)
             {
-                Console.WriteLine("Х является корне уровнения ");
+                Console.WriteLine("Х является корне уровнения " + x);
+
             }
             //return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
             /*Преобразование в float выполнено, 
@@ -106,14 +107,28 @@ namespace lab1
         }
         public void Formula(Test t)
         {
-       
 
-            Test s;
+            float x2 = 0.0f;
             int zero = 0;
-            zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
+            Test s = new Test();
+            
+            foreach (int i in s.GetArray())
+            {
+              // ???  x2 = s.GetArray();
+            }
+
+               
+            zero = (int) (25 * (float)Math.Pow(x2, 5) - (float)Math.Sqrt(x2 * x2 + x2));
+
+            foreach (int i in s)
+            {
+                temp[i] = (float)rnd.NextDouble() * sizeRandom;
+                //Console.WriteLine("{0:N}", temp[i]); // проверка вывода
+            }
+
             if (zero == 0)
             {
-               Console.WriteLine("Х является корне уровнения ");
+               Console.WriteLine("Х является корне уровнения " + x2);
             }
 
         }
