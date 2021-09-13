@@ -11,8 +11,6 @@ namespace lab1
         public Test()
         {
             sizeRandom = 0;
-            //size = 2;
-            //double[] myArrDouble = new double[size];
         }
         /* --- ----- Поля ----- ----- */
 

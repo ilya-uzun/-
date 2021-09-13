@@ -22,12 +22,11 @@ namespace lab1
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
         */     
-            test.ReadSizeRandom();
-            //GetArray()
-            //test.ReadSizeArrey();
-            //test.GetRandom();
-            //test.GetRandomArrey();
-            Console.WriteLine("{0:N}", test.GetArray());
+            //test.ReadSizeRandom();
+            //Console.WriteLine("{0:N}", test.GetArray());
+            tacs.Formula();
+            tacs.Formula(test);
+            //Console.WriteLine("{0:N}", test.GetArray());
         }
     }
 }

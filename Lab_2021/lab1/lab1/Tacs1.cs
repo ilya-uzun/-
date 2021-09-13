@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace lab1
 {
@@ -94,6 +95,7 @@ namespace lab1
         public void Formula()
         {
             int zero = 0;
+            ReadX();
             zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
             if (zero == 0)
             {
@@ -108,27 +110,20 @@ namespace lab1
         public void Formula(Test t)
         {
 
-            float x2 = 0.0f;
+
             int zero = 0;
-            Test s = new Test();
-            
-            foreach (int i in s.GetArray())
-            {
-              // ???  x2 = s.GetArray();
-            }
+            Test s = new Test(); // создае объект класса тест
+            List<float> myX = new List<float>(); // создае список для копирования тестового массива
+            myX.AddRange(s.GetArray()); // присваиваем тестоый массив списку
 
-               
-            zero = (int) (25 * (float)Math.Pow(x2, 5) - (float)Math.Sqrt(x2 * x2 + x2));
-
-            foreach (int i in s)
+            foreach (int i in myX) 
             {
-                temp[i] = (float)rnd.NextDouble() * sizeRandom;
-                //Console.WriteLine("{0:N}", temp[i]); // проверка вывода
-            }
+                zero = (int)(25 * (float)Math.Pow(myX[i], 5) - (float)Math.Sqrt(myX[i] * myX[i] + myX[i]));
 
-            if (zero == 0)
-            {
-               Console.WriteLine("Х является корне уровнения " + x2);
+                if (zero == 0)
+                {
+                    Console.WriteLine("Х является корне уровнения " + myX[i]);
+                }
             }
 
         }
