@@ -99,7 +99,7 @@ namespace lab1
             zero = (int) (25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x));
             if (zero == 0)
             {
-                Console.WriteLine("Х является корне уровнения " + x);
+                Console.WriteLine("Является корне уровнения x = " + x);
 
             }
             //return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
@@ -109,7 +109,6 @@ namespace lab1
         }
         public void Formula(Test t)
         {
-
 
             int zero = 0;
             Test s = new Test(); // создае объект класса тест
@@ -122,10 +121,12 @@ namespace lab1
 
                 if (zero == 0)
                 {
-                    Console.WriteLine("Х является корне уровнения " + myX[i]);
+                    Console.Write("Является корне уровнения x = ");
+                    Console.WriteLine("{0:N}", myX[i]);
                 }
+                Console.WriteLine("{0:N}", myX[i]);
             }
-
+            // подумать стоит ли передовать float в поиск если потом все равно перевожу в int
         }
     }//Tacs1
 }

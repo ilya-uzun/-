@@ -14,10 +14,6 @@ namespace lab1
        // private int size; // зармер массива
 
         /* --- ----- Методы ----- ----- */
-        static void GetArrey(ref arrey[] A, int size)
-        {
-            A = new arrey[size];
-        }
 
         public void GetRandom()
         {
@@ -60,10 +56,10 @@ namespace lab1
 
         public float[] GetArray()
         {
-            int size = ReadSizeArrey();
+            int size = ReadSizeArrey(); // запрос на размер массива
             Random rnd = new Random();
             float[] temp = new float[size]; // выделить память для массива
-            int random = 
+            ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
             // заполнить массив значениями
             foreach (int i in temp)
             {
