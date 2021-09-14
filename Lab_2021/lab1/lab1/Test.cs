@@ -3,10 +3,6 @@ namespace lab1
 {
     public class Test
     {
-        class arrey
-        {
-            public int value; // целочисленное значение
-        }
 
         public Test()
         {
@@ -60,26 +56,14 @@ namespace lab1
 
             return s;
         }//ReadSizeRandom()
-        /*
-        public void GetRandomArrey()
-        {
-            Random rnd = new Random();
-            //double[] myArrDouble = new double[size];
-            //GetArrey(ref myArrDouble, size);
-            //double[] myArrDouble = new double[size];
-            foreach (int i in myArrDouble)
-            {
-                myArrDouble[i] = rnd.NextDouble() * sizeRandom;
-                Console.WriteLine("{0:N}", myArrDouble[i]);
-            }
-        }//GetRandomArrey()  */
+
 
         public float[] GetArray()
         {
             int size = ReadSizeArrey();
             Random rnd = new Random();
             float[] temp = new float[size]; // выделить память для массива
-
+            int random = 
             // заполнить массив значениями
             foreach (int i in temp)
             {

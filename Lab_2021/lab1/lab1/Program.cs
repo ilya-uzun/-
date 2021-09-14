@@ -24,7 +24,9 @@ namespace lab1
         */     
             //test.ReadSizeRandom();
             //Console.WriteLine("{0:N}", test.GetArray());
+            Console.WriteLine("Введите без массива");
             tacs.Formula();
+            Console.WriteLine("Введите с масивом");
             tacs.Formula(test);
             //Console.WriteLine("{0:N}", test.GetArray());
         }
