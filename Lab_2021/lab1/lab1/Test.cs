@@ -6,12 +6,14 @@ namespace lab1
 
         public Test()
         {
-            sizeRandom = 0;
+            minSizeRandom = 0;
+            maxSizeRandom = 0;
         }
         /* --- ----- Поля ----- ----- */
 
-        private int sizeRandom;  // максимальное значение случайного числа
-       // private int size; // зармер массива
+        private int minSizeRandom;  // минимальное значение случайного числа
+        private int maxSizeRandom;  // максимальное значение случайного числа
+
 
         /* --- ----- Методы ----- ----- */
 
@@ -28,7 +30,9 @@ namespace lab1
             {
                 //запись 
                 Console.Write("Введите верхнею границу случайного чисела: ");
-                sizeRandom = Convert.ToInt32(Console.ReadLine());
+                minSizeRandom = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Введите верхнею границу случайного чисела: ");
+                maxSizeRandom = Convert.ToInt32(Console.ReadLine());
             }
             catch (FormatException)
             {
@@ -54,17 +58,18 @@ namespace lab1
         }//ReadSizeRandom()
 
 
-        public float[] GetArray()
+        public int[] GetArray()
         {
             int size = ReadSizeArrey(); // запрос на размер массива
             Random rnd = new Random();
-            float[] temp = new float[size]; // выделить память для массива
+            int[] temp = new int[size]; // выделить память для массива
             ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
             // заполнить массив значениями
+            Console.WriteLine("Сгенерированный массив");
             foreach (int i in temp)
             {
-                temp[i] = (float)rnd.NextDouble() * sizeRandom;
-                //Console.WriteLine("{0:N}", temp[i]); // проверка вывода
+                temp[i] = rnd.Next(minSizeRandom, maxSizeRandom);
+                Console.Write("{0}", temp[i]); // проверка вывода
             }
             return temp;
         }

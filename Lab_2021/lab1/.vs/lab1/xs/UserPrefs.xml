@@ -1,10 +1,21 @@
 ﻿<Properties StartupConfiguration="{48B2A3F7-44D4-49B0-8423-5A1F6909EE7F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="lab1/Tacs1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lab1/Test.cs">
     <Files>
-      <File FileName="lab1/Program.cs" Line="12" Column="48" />
-      <File FileName="lab1/Test.cs" Line="87" Column="19" />
-      <File FileName="lab1/Tacs1.cs" Line="93" Column="25" />
+      <File FileName="lab1/Program.cs" Line="29" Column="52" />
+      <File FileName="lab1/Test.cs" Line="70" Column="14" />
+      <File FileName="lab1/Tacs1.cs" Line="121" Column="94" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lab1" expanded="True">
+            <Node name="lab1" expanded="True">
+              <Node name="Test.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -101,8 +101,8 @@ namespace lab1
             {
                 Console.WriteLine("Является корне уровнения x = " + x);
 
-            }
-            //return 25 * (float)Math.Pow(x, 5) - (float)Math.Sqrt(x * x + x);
+            }else Console.WriteLine("Не является корне уровнения x = " + x);
+    
             /*Преобразование в float выполнено, 
               поскольку функции класса Math возвращают тип double.
               Тап float использован т.к нет необходимости в большой точности */
@@ -112,19 +112,20 @@ namespace lab1
 
             int zero = 0;
             Test s = new Test(); // создае объект класса тест
-            List<float> myX = new List<float>(); // создае список для копирования тестового массива
-            myX.AddRange(s.GetArray()); // присваиваем тестоый массив списку
+            List<int> myX = new List<int>(); // создае список для копирования тестового массива
+            myX.AddRange(s.GetArray()); // присваиваем тестовый массив списку
 
             foreach (int i in myX) 
             {
-                zero = (int)(25 * (float)Math.Pow(myX[i], 5) - (float)Math.Sqrt(myX[i] * myX[i] + myX[i]));
+   
+                zero = (int)(25 * Math.Pow(myX[i], 5) - Math.Sqrt(myX[i] * myX[i] + myX[i]));
 
                 if (zero == 0)
                 {
                     Console.Write("Является корне уровнения x = ");
-                    Console.WriteLine("{0:N}", myX[i]);
+                    Console.WriteLine("{0}", myX[i]);
                 }
-                Console.WriteLine("{0:N}", myX[i]);
+                Console.WriteLine("{0}", myX[i]);
             }
             // подумать стоит ли передовать float в поиск если потом все равно перевожу в int
         }
