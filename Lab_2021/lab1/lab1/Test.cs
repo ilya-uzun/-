@@ -29,7 +29,7 @@ namespace lab1
             try
             {
                 //запись 
-                Console.Write("Введите верхнею границу случайного чисела: ");
+                Console.Write("Введите нижнею границу случайного чисела: ");
                 minSizeRandom = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Введите верхнею границу случайного чисела: ");
                 maxSizeRandom = Convert.ToInt32(Console.ReadLine());
@@ -69,8 +69,9 @@ namespace lab1
             foreach (int i in temp)
             {
                 temp[i] = rnd.Next(minSizeRandom, maxSizeRandom);
-                Console.Write("{0}", temp[i]); // проверка вывода
+                Console.Write(" " + temp[i]); // проверка вывода
             }
+            Console.WriteLine(""); // новая строка
             return temp;
         }
 

@@ -5,17 +5,6 @@
       <File FileName="lab1/Test.cs" Line="70" Column="14" />
       <File FileName="lab1/Tacs1.cs" Line="121" Column="94" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="lab1" expanded="True">
-            <Node name="lab1" expanded="True">
-              <Node name="Test.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
