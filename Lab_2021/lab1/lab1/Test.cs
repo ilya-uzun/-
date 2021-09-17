@@ -58,7 +58,7 @@ namespace lab1
         }//ReadSizeRandom()
 
 
-        public int[] GetArray()
+       public int[] GetArray()
         {
             int size = ReadSizeArrey(); // запрос на размер массива
             Random rnd = new Random();
@@ -74,9 +74,26 @@ namespace lab1
             Console.WriteLine(""); // новая строка
             return temp;
         }
+        
+//         public int[] GetArray()
+//         {
+//             int size = ReadSizeArrey(); // запрос на размер массива
+//             Random rnd = new Random();
+//             int[] temp = new int[size]; // выделить память для массива
+//             ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
+//             // заполнить массив значениями
+//             Console.WriteLine("Сгенерированный массив");
+//             foreach (int i in temp)
+//             {
+//                 temp[i] = rnd.Next(minSizeRandom, maxSizeRandom);
+//                 Console.Write(" " + temp[i]); // проверка вывода
+//             }
+//             Console.WriteLine(""); // новая строка
+//             return temp;
+//         }
 
     }//Test
 }
 
 
-
+// https://www.nookery.ru/work-from-list/
