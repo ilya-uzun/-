@@ -21,13 +21,17 @@ namespace lab1
             tacs.ReadX();
             Console.Write("Вывод формулы x ");
             Console.WriteLine("{0:N}", tacs.Formula());
-        */     
+           
             //test.ReadSizeRandom();
             //Console.WriteLine("{0:N}", test.GetArray());
             Console.WriteLine("Ввывод без массива");
             tacs.Formula();
             Console.WriteLine("Ввывод с массивом");
             tacs.Formula(test);
+
+
+            */
+            test.GetList();
             //Console.WriteLine("{0:N}", test.GetArray());
         }
     }

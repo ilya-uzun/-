@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace lab1
 {
     public class Test
@@ -74,23 +76,32 @@ namespace lab1
             Console.WriteLine(""); // новая строка
             return temp;
         }
-        
-//         public int[] GetArray()
-//         {
-//             int size = ReadSizeArrey(); // запрос на размер массива
-//             Random rnd = new Random();
-//             int[] temp = new int[size]; // выделить память для массива
-//             ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
-//             // заполнить массив значениями
-//             Console.WriteLine("Сгенерированный массив");
-//             foreach (int i in temp)
-//             {
-//                 temp[i] = rnd.Next(minSizeRandom, maxSizeRandom);
-//                 Console.Write(" " + temp[i]); // проверка вывода
-//             }
-//             Console.WriteLine(""); // новая строка
-//             return temp;
-//         }
+
+        public List<int> GetList(){
+            List<int> myX = new List<int>();
+            foreach (int i in myX)
+            {
+                return myX;
+            }
+        }
+
+
+        //         public int[] GetArray()
+        //         {
+        //             int size = ReadSizeArrey(); // запрос на размер массива
+        //             Random rnd = new Random();
+        //             int[] temp = new int[size]; // выделить память для массива
+        //             ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
+        //             // заполнить массив значениями
+        //             Console.WriteLine("Сгенерированный массив");
+        //             foreach (int i in temp)
+        //             {
+        //                 temp[i] = rnd.Next(minSizeRandom, maxSizeRandom);
+        //                 Console.Write(" " + temp[i]); // проверка вывода
+        //             }
+        //             Console.WriteLine(""); // новая строка
+        //             return temp;
+        //         }
 
     }//Test
 }

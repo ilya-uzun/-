@@ -112,12 +112,11 @@ namespace lab1
 
             int zero = 0;
             Test s = new Test(); // создае объект класса тест
-            List<int> myX = new List<int>(); // создае список для копирования тестового массива
+            List<int> myX = new List<int>(); // создаем список для копирования тестового массива
 
-            int[] arrOfStr1 = new int[3] { 1, 2, 3 };
+            myX = s.GetList();
+
             // myX.AddRange(s.GetArray()); // присваиваем тестовый массив списку
-
-            myX.AddRange(arrOfStr1); // присваиваем тестовый массив списку
 
             Console.WriteLine("Вывод массива после передачи");
             foreach (int i in myX) 
