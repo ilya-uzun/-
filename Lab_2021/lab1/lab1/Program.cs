@@ -33,6 +33,12 @@ namespace lab1
             */
             test.GetList();
             //Console.WriteLine("{0:N}", test.GetArray());
+
+
+            Console.WriteLine("Вывод значениея Float");
+            Console.WriteLine("{0:N}", tacs.FloatTacs3());
+            Console.WriteLine("Вывод значениея Double");
+            Console.WriteLine("{0:N}", tacs.Doubletacs3());
         }
     }
 }

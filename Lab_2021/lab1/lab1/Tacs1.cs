@@ -136,12 +136,12 @@ namespace lab1
             // подумать стоит ли передовать float в поиск если потом все равно перевожу в int
         }
 
-        private double Doubletacs3()
+        public double Doubletacs3()
         {
             double suma = Math.Pow((a-b), 3) - (Math.Pow(a,3)+ 3*a*b*b) / -(3*a*a*b-Math.Pow(b,3));
             return suma;
         }
-        private float FloatTacs3()
+        public float FloatTacs3()
         {
             float suma = (float)(Math.Pow((a - b), 3) - (Math.Pow(a, 3) + 3 * a * b * b) / -(3 * a * a * b - Math.Pow(b, 3)));
             return suma;

@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{48B2A3F7-44D4-49B0-8423-5A1F6909EE7F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="lab1/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lab1/Program.cs">
     <Files>
-      <File FileName="lab1/Program.cs" Line="34" Column="28" />
-      <File FileName="lab1/Test.cs" Line="67" Column="71" />
-      <File FileName="lab1/Tacs1.cs" Line="122" Column="12" />
+      <File FileName="lab1/Program.cs" Line="38" Column="13" />
+      <File FileName="lab1/Test.cs" Line="84" Column="28" />
+      <File FileName="lab1/Tacs1.cs" Line="133" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
