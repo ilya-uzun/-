@@ -18,6 +18,15 @@ namespace lab1
 
 
         /* --- ----- Методы ----- ----- */
+        public int GetMinSizeRandom()
+        {
+            return minSizeRandom;
+        }
+
+        public int GetMaxSizeRandom()
+        {
+            return maxSizeRandom;
+        }
 
         public void GetRandom()
         {
@@ -89,4 +98,3 @@ namespace lab1
 }
 
 
-// https://www.nookery.ru/work-from-list/

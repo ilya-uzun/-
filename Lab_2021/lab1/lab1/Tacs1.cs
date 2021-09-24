@@ -111,16 +111,32 @@ namespace lab1
         }
         public void Formula(Test t)
         {
+            Test s = new Test(); // создае объект класса тест
+            Random rnd = new Random();
+            List<int> myX = new List<int>(); // создаем список для копирования тестового массива
+            int size = s.ReadSizeArrey(); // запрос на размер массива
+           
+           
+            s.ReadSizeRandom(); // запрос на верзнюю границе радомных чисел
+            // заполнить массив значениями
+            Console.WriteLine("Сгенерированный массив");
+
+         
+            //Заполнение списка
+            foreach (int i in myX)
+            {
+                myX[i] = rnd.Next(s.GetMinSizeRandom(), s.GetMaxSizeRandom());
+                Console.Write(" " + myX[i]); // проверка вывода
+            }
+            Console.WriteLine(""); // новая строка
+       
 
             int zero = 0;
-            Test s = new Test(); // создае объект класса тест
-            List<int> myX = new List<int>(); // создаем список для копирования тестового массива
+            /*
+             * Создать новый список
+             * Проверить как все работает
+           */
 
-            myX = s.GetList();
-
-            // myX.AddRange(s.GetArray()); // присваиваем тестовый массив списку
-
-            Console.WriteLine("Вывод массива после передачи");
             foreach (int i in myX) 
             {
    
