@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace lab1
 {
 
@@ -10,7 +11,7 @@ namespace lab1
             Tacs1 tacs = new Tacs1();
             Test test = new Test();
             Console.WriteLine("Введите m и n");
- /*
+ 
             tacs.Read();
             tacs.PrintAmount();
             tacs.Comparison();
@@ -20,20 +21,14 @@ namespace lab1
             Console.WriteLine("Введите x ");
             tacs.ReadX();
             Console.Write("Вывод формулы x ");
-            Console.WriteLine("{0:N}", tacs.Formula());
-           
-            //test.ReadSizeRandom();
-            //Console.WriteLine("{0:N}", test.GetArray());
             Console.WriteLine("Ввывод без массива");
             tacs.Formula();
             Console.WriteLine("Ввывод с массивом");
             tacs.Formula(test);
 
 
-            */
-            test.GetList();
-            //Console.WriteLine("{0:N}", test.GetArray());
 
+            test.GetList();  
 
             Console.WriteLine("Вывод значениея Float");
             Console.WriteLine("{0:N}", tacs.FloatTacs3());
