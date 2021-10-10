@@ -14,6 +14,7 @@ namespace lab2
             try
             {
                 int buf = Convert.ToInt32(Console.ReadLine());
+                //for(int i=0;i<buf;i++)
             }
             catch
             {

@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{3C55F8C3-2BED-401E-B6BD-2A7190B42BDC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="lab2/Program.cs">
     <Files>
-      <File FileName="lab2/Program.cs" Line="20" Column="52" />
+      <File FileName="lab2/Program.cs" Line="17" Column="19" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="lab2" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.lab2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
