@@ -13,8 +13,17 @@ namespace lab2
             Console.Write("Введите количесво целых чисел ");
             try
             {
-                int buf = Convert.ToInt32(Console.ReadLine());
+                //int buf = Convert.ToInt32(Console.ReadLine());
                 //for(int i=0;i<buf;i++)
+                Console.Write("buf : ");
+                int buf = Int32.Parse(Console.ReadLine()), min = int.MaxValue, val = -1;
+                for (; buf > 0; buf--) 
+                {
+                    val = Int32.Parse(Console.ReadLine());
+                    min = min > val ? val : min;
+                }
+                Console.WriteLine("min : " + min);
+                Console.ReadKey(true);
             }
             catch
             {
