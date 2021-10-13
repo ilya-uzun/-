@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{3C55F8C3-2BED-401E-B6BD-2A7190B42BDC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="lab2/Program.cs">
     <Files>
-      <File FileName="lab2/Program.cs" Line="35" Column="37" />
+      <File FileName="lab2/Program.cs" Line="57" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.lab2 PreferredExecutionTarget="MonoDevelop.Default" />

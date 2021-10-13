@@ -35,7 +35,28 @@ namespace lab2
             Console.Write("Задача 29. Введите количесво целых чисел  ");
             try
             {
-                int buf = Convert.ToInt32(Console.ReadLine());
+                int counter = 0;
+                int[] arr = new int[10];
+                Random rand = new Random();
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    arr[i] = rand.Next(1, 100);
+                    Console.Write(arr[i] + " ");
+
+                }
+                Console.WriteLine();
+
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] % 3 == 0 && arr[i] != 0)
+                    {
+                        counter++;
+                    }
+
+                }
+
+                Console.WriteLine("Нечетных чисел: " + counter);
+            
             }
             catch
             {
