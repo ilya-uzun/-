@@ -65,7 +65,7 @@ namespace lab2
 
             /*
              Задача № 40
-             S= sin X + sin X^2 + sin X^3 + sin X^4 +...+ sin X^n 
+             S= sin X + sin^2 X + sin^3 X + sin^4 X +...+ sinX^n
             */
             
             try
