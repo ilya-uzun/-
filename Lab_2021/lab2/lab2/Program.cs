@@ -65,9 +65,29 @@ namespace lab2
 
             /*
              Задача № 40
-             S= sin X + sin X^2 + sin X^3 + sin X^4 +...+ sin X^n 
+             S= sin X + sin^2 X + sin^3 X + sin^4 X +...+ sinX^n
             */
-
+            
+            try
+            {
+                double S = 0.0f;
+                Console.Write("Задача 40. Введите число итераций для суммы ряда : ");
+                double num = Convert.ToDouble(Console.ReadLine());
+                
+                Console.Write("Введите x : ");
+                double x = Convert.ToDouble(Console.ReadLine());
+                for (int i = 0; i <= num; i++) 
+                {
+                    double n = 1;
+                    S += pow(sin(x),n);
+                    n++;
+                }
+                Console.WriteLine("S = sin X + sin^2 X + sin^3 X + sin^4 X +...+ sinX^n " + S);
+            }
+            catch
+            {
+                Console.WriteLine("Ошибка ввода ");
+            }
         }
     }
 }
